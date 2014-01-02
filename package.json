@@ -1,6 +1,6 @@
 {
   "name": "javascript-natural-sort",
-  "version": "0.7.0",
+  "version": "0.7.1",
   "description": "Natural Sort algorithm for Javascript - Version 0.7 - Released under MIT license",
   "main": "naturalSort.js",
   "scripts": {
