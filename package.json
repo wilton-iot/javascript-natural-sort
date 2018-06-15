@@ -23,5 +23,13 @@
   "bugs": {
     "url": "https://github.com/Bill4Time/javascript-natural-sort/issues"
   },
-  "homepage": "https://github.com/Bill4Time/javascript-natural-sort"
+  "homepage": "https://github.com/Bill4Time/javascript-natural-sort",
+  "wilton": {
+    "excludes": [
+      "index.html",
+      "speed-tests.html",
+      "unit-tests.html",
+      "unit-test.js"
+    ]
+  }
 }

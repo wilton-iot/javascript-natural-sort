@@ -1,3 +1,4 @@
+define(function(localRequire, exports, module) { var requireOrig = require; require = localRequire;
 /*
  * Natural Sort algorithm for Javascript - Version 0.7 - Released under MIT license
  * Author: Jim Palmer (based on chunking idea from Dave Koelle)
@@ -43,3 +44,5 @@ module.exports = function naturalSort (a, b) {
 	}
 	return 0;
 };
+
+require = requireOrig;});
